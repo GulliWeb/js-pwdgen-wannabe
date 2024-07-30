@@ -12,4 +12,11 @@ const favColor = prompt('Inserisci il tuo colore preferito')
 console.log(favColor)
 
 // STEP 4 - stampare in console il nome, cognome, colore preferito ed il numero 21 senza spazi
-console.log(userName + userNickname + favColor + 21)
+const result = (userName + userNickname + favColor + 21)
+
+console.log(result)
+
+// BONUS - stampare in pagina il risultato
+const ris = document.getElementById('ris');
+console.log(ris)
+ris.innerText = result 
